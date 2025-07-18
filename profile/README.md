@@ -22,6 +22,11 @@ The first phase of the project will be ingesting data. All freely available API'
 ### Phase 2 - Data Processing and Cleaning
 The second phase will mostly iterate on the first phase. The biggest new feature will be the data preprocessing service, which will consume raw API data and perform various transformations and calculations that will be essential for training ML models. Furthermore, data will be stored in a Time Series Database after processing. Other goals for this phase are identifying gaps in the dataset and sending tasks to the scheduler to fill those gaps.
 
+### Phase 3 - ML Architecture
+The third phase involves establishing the architecture needed to begin training and evaluating ML models based on the dataset. 
+
+### Phase 4 - IBKR Integration
+Using Interactive Brokers' API, execute trades in a paper trading (simulated) environment to evaluate the performance of the models. 
 
 ## Architecture
 
